@@ -23,7 +23,7 @@ class _Widget203State extends State<Widget203> {
         autovalidateMode: AutovalidateMode.always,
         onChanged: () {
           setState(() {
-            Form.of(primaryFocus!.context!)!.save();
+            Form.of(primaryFocus!.context!).save();
           });
         },
         child: Column(

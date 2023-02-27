@@ -7,10 +7,10 @@ class Widget153 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return PlatformMenuBar(
-      menus: <MenuItem>[
+      menus: [
         PlatformMenu(
           label: 'Platform Menu',
-          menus: <MenuItem>[
+          menus: [
             PlatformMenuItemGroup(
               members: [
                 PlatformMenuItem(
@@ -23,7 +23,7 @@ class Widget153 extends StatelessWidget {
               members: [
                 PlatformMenu(
                   label: 'Messages',
-                  menus: <MenuItem>[
+                  menus: [
                     PlatformMenuItem(
                       onSelected: () {},
                       shortcut: const CharacterActivator('F'),
