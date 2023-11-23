@@ -17,3 +17,5 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.dark().copyWith(scaffoldBackgroundColor: darkBlue),
       debugShowCheckedModeBanner: false,
       title: 'Every Flutter Widget',
+      home: Scaffold(
+        appBar: AppBar(
