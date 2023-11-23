@@ -19,3 +19,6 @@ class MyApp extends StatelessWidget {
       title: 'Every Flutter Widget',
       home: Scaffold(
         appBar: AppBar(
+          title: const Text('Flutter Mapp'),
+        ),
+        //! Just change the Widget001 for the Widget you want.
