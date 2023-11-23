@@ -29,3 +29,4 @@ class MyApp extends StatelessWidget {
 }
 
 class Widget001 extends StatelessWidget {
+  const Widget001({Key? key}) : super(key: key);
